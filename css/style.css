@@ -1,0 +1,172 @@
+:root {
+    --marlino: 'Marlino', Arial, Helvetica, sans-serif;
+    --nexa-r: 'NexaRegular', Arial, Helvetica, sans-serif;
+    --nexa-l: 'NexaLight', Arial, Helvetica, sans-serif;
+    --white-color: #fff;
+    --red-color: #ff0000;
+    --white-bg: #fff;
+    --sky-light-bg: #a3b8d6;
+    --sky-dark-bg: #708eb8;
+    --sky-dark-color: #004981;
+    --black-bg: #00071c;
+    --black-color: #00071c;
+    --glass-size: 65%;
+    --icon-height: 7rem;
+    --transition-speed: 0.45s;
+    --timing-function: cubic-bezier(0.66, 1.51, 0.77, 1.13);
+    --font-50: 50px;
+}
+
+body {
+    overflow-x: hidden !important;
+}
+
+body,
+p {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Myriad Pro', sans-serif !important;
+}
+
+h1 {font-size: 45px !important;line-height: 65px !important;}
+h2 {font-size: 37px !important;line-height: 50px !important;}
+h3 {font-size: 30px !important;line-height: 40px !important;}
+h4 {font-size: 24px !important;line-height: 30px !important;}
+h5 {font-size: 20px !important;line-height: 20px !important;}
+h6 {font-size: 18px !important;line-height: 18px !important;}
+p {font-size: 16px !important;line-height: 26px !important;}
+
+.custbtn {
+    padding: 18px 75px;
+    background-color: var(--sky-dark-color);
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.custbtn a {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+/************** HEADER CSS START *************/
+.mainHeader {
+    background-color: #000000b0;
+    padding: 30px 0 0 0;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.mainHeader .addtocart {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mainHeader .rowOne {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.topheader p {
+    margin: 0;
+    color: var(--white-color);
+}
+
+.noPadding {
+    padding: 0 !important;
+}
+
+.mainHeader .menuDiv {
+    background-color: black;
+    padding: 35px;
+}
+
+.mainHeader .menuDiv ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+.mainHeader .menuDiv ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/************** HEADER CSS END ***************/
+
+/************* SECTION ONE CSS START *************/
+
+.secOne {
+    background: url(../images/background.png);
+    min-height: 900px;
+    display: flex;
+    align-items: center;
+}
+
+.secOne .bannerDiv {
+    margin: auto;
+    color: var(--white-color);
+    padding: 100px 200px 0 200px;
+    text-align: center;
+}
+
+
+/* .secOne .bannerDiv .custbtn {
+    padding: 18px 75px;
+    background-color: var(--sky-dark-color);
+    border-radius: 50px;
+} */
+
+.secOne .bannerDiv h1 {
+    font-size: 65px !important;
+    font-weight: 600;
+}
+
+.secOne .bannerDiv p {
+    padding: 20px 0;
+}
+
+/* .secOne .bannerDiv .custbtn a {
+    color: var(--white-color);
+    text-decoration: none;
+} */
+/************* SECTION ONE CSS END *************/
+
+/************* SECTION TWO CSS START *************/
+
+.secTwo {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.secTwo .aboutContent h2 {
+    font-weight: 600;
+    font-size: 55px !important;
+}
+
+.aboutContent {
+    padding: 50px 130px;
+}
+
+.secTwo .aboutContent h6 {
+    padding: 20px 0 10px 0;
+    line-height: 23px !important;
+    font-weight: 500;
+    font-style: italic;
+}
+.secTwo .aboutContent p {
+    margin-bottom: 40px;
+}
+/************* SECTION TWO CSS END *************/
