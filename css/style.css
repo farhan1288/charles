@@ -35,19 +35,48 @@ h6 {
     font-family: 'Myriad Pro', sans-serif !important;
 }
 
-h1 {font-size: 45px !important;line-height: 65px !important;}
-h2 {font-size: 37px !important;line-height: 50px !important;}
-h3 {font-size: 30px !important;line-height: 40px !important;}
-h4 {font-size: 24px !important;line-height: 30px !important;}
-h5 {font-size: 20px !important;line-height: 20px !important;}
-h6 {font-size: 18px !important;line-height: 18px !important;}
-p {font-size: 16px !important;line-height: 26px !important;}
+h1 {
+    font-size: 45px !important;
+    line-height: 65px !important;
+}
+
+h2 {
+    font-size: 37px !important;
+    line-height: 50px !important;
+}
+
+h3 {
+    font-size: 30px !important;
+    line-height: 40px !important;
+}
+
+h4 {
+    font-size: 24px !important;
+    line-height: 30px !important;
+}
+
+h5 {
+    font-size: 20px !important;
+    line-height: 20px !important;
+}
+
+h6 {
+    font-size: 18px !important;
+    line-height: 18px !important;
+}
+
+p {
+    font-size: 16px !important;
+    line-height: 26px !important;
+    color: #a4a4a4;
+}
 
 .custbtn {
     padding: 18px 75px;
     background-color: var(--sky-dark-color);
     border-radius: 50px;
     display: inline-block;
+    text-transform: uppercase;
 }
 
 .custbtn a {
@@ -166,7 +195,185 @@ p {font-size: 16px !important;line-height: 26px !important;}
     font-weight: 500;
     font-style: italic;
 }
+
 .secTwo .aboutContent p {
     margin-bottom: 40px;
 }
+
 /************* SECTION TWO CSS END *************/
+
+
+/************* SECTION THREE CSS START *************/
+.secThree {
+    background: url(../images/secthree.png);
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background-size: cover;
+    background-position: top, center;
+    background-repeat: no-repeat;
+}
+
+.secThree .row {
+    text-align: center;
+}
+
+.secThree .aboutContent h2 {
+    font-weight: 500;
+    font-size: 45px !important;
+}
+
+.secThree .aboutContent p {
+    padding: 15px;
+}
+
+/************* SECTION THREE CSS END *************/
+
+
+/************* SECTION FOUR CSS START *************/
+.secFour {
+    padding: 80px 0;
+}
+
+.secFour .row {
+    display: flex;
+    align-items: center;
+}
+
+.secFour .aboutContent {
+    padding: 15px;
+}
+
+.secFour .aboutContent h3 {
+    font-weight: 900;
+    padding-bottom: 15px;
+}
+
+.secFour .aboutContent p {
+    padding: 0px;
+}
+
+.secFour .btnPrice {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    gap: 100px;
+}
+
+.btnPrice p {
+    color: red;
+    font-weight: 700;
+    font-size: 33px !important;
+    margin-bottom: 0;
+}
+
+.btnPrice p span {
+    font-size: 20px;
+    margin-left: 12px;
+    text-decoration: line-through;
+    font-weight: 700;
+    color: #a4a4a4;
+}
+
+/************* SECTION FOUR CSS END *************/
+
+/************* SECTION FIVE CSS START *************/
+.secFive {
+    padding: 0 0 80px 0;
+}
+
+.secFive .row {
+    display: flex;
+    align-items: center;
+}
+
+.secFive .aboutContent {
+    padding: 15px;
+}
+
+.secFive .aboutContent h3 {
+    font-weight: 900;
+    padding-bottom: 15px;
+}
+
+.secFive .aboutContent p {
+    padding: 0px;
+}
+
+.secFive .btnPrice {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    gap: 100px;
+}
+
+/************* SECTION FIVE CSS END *************/
+
+
+/************* SECTION SIX CSS START *************/
+.secSix .row-one {
+    text-align: center;
+}
+
+.secSix .row-one .productDetail h2 {
+    font-size: 45px !important;
+    font-weight: 800;
+    padding: 20px 0;
+}
+
+.secSix .row-one .productDetail {
+    padding: 10px 30px 60px 30px;
+}
+
+.productDiv {
+    text-align: center;
+    padding: 80px;
+    background-color: #e5e5e7;
+}
+
+.productContent {
+    padding: 20px 0 0 0;
+}
+
+.productContent .productHeading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productContent p {
+    color: red;
+    font-weight: 900;
+}
+
+.secSix .row-three {
+    padding: 20px 0;
+}
+
+/************* SECTION SIX CSS END *************/
+
+
+/************* SECTION SEVEN CSS START *************/
+.secSeven {
+    padding: 70px 0;
+}
+
+.secSeven .row {
+    align-items: center;
+}
+
+.secSeven .aboutContent h2 {
+    font-size: 50px !important;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.secSeven .aboutContent p {
+    padding: 0 140px 25px 0px;
+}
+
+.secSeven .aboutContent {
+    padding: 10px;
+}
+
+/************* SECTION SEVEN CSS END *************/
